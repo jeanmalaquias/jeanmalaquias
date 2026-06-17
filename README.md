@@ -28,7 +28,7 @@ I'm a **Principal AI Architect** with **18+ years** building multi-tenant cloud 
 - 🎓 **M.Sc. Cloud Computing Architecture**, **M.Sc. Artificial Intelligence**, **Stanford ML Specialization**
 - 🏆 **Microsoft MVP** — Microsoft Foundry category
 - 👨‍🏫 **Microsoft Certified Trainer (MCT)** since 2014 — trained **300+** engineers on Agentic AI, RAG, MCP, multi-agent orchestration
-- 🌍 Based in **Florida, USA** — open to **Remote**, US-based roles
+- 🌍 Based in **Florida, USA** 
 - 📨 Reach me: **jeandasilvamalaquias@gmail.com**
 
 ---
