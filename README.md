@@ -124,6 +124,51 @@ focus:
 
 ## 🌟 Featured Projects
 
+> **AI Architecture Portfolio (2026)** — eight production-grade reference implementations spanning multi-agent orchestration, evaluation, MCP, Responsible AI governance, cost engineering, and a multi-tenant platform. Each ships with an architecture doc, typed schemas, tests (near-100% coverage), and CI.
+
+### 🧠 [multi-agent-reference](https://github.com/jeanmalaquias/multi-agent-reference)
+> Provider-agnostic **multi-agent system** (Planner → Researcher → Writer → Critic) on **LangGraph**, with tools as **MCP** servers, pre/post **guardrails**, **OpenTelemetry** tracing on every LLM call, and an **eval gate** in CI. Switch provider per agent (Anthropic / Bedrock / Vertex / Foundry) with one config flag.
+>
+> `langgraph` `mcp` `multi-agent` `guardrails` `opentelemetry` `eval`
+
+### 📏 [llm-eval-harness](https://github.com/jeanmalaquias/llm-eval-harness)
+> Drop-in **LLM evaluation** for any repo: plugin metrics, **LLM-as-Judge** with stored reasoning traces, HTML diff reports, a trend dashboard, and a **reusable GitHub Action** that fails a PR on quality regression. Ragas / DeepEval / Promptfoo adapters.
+>
+> `evaluation` `llm-as-judge` `ci-gate` `ragas` `deepeval` `promptfoo`
+
+### 🔌 [mcp-server-collection](https://github.com/jeanmalaquias/mcp-server-collection)
+> Five **production-grade MCP servers** (TypeScript + Python) — Confluence/Jira, Postgres+pgvector, hotel CRM, AWS Bedrock, Azure Foundry — with typed tool schemas (**Zod / Pydantic**), stdio + HTTP transports, mock-by-default backends, tests, and npm / PyPI publish pipelines.
+>
+> `mcp` `typescript` `python` `pydantic` `zod` `pnpm`
+
+### 📚 [ai-governance-mapping](https://github.com/jeanmalaquias/ai-governance-mapping)
+> A **unified controls catalog** crosswalking **NIST AI RMF**, the **EU AI Act**, the **OWASP LLM Top 10 (2025)**, and **ISO/IEC 42001** — with **OPA** policies, documentation templates, and a `compliance-check` CLI that gates a project on control gaps.
+>
+> `ai-governance` `nist-ai-rmf` `eu-ai-act` `owasp-llm-top10` `opa`
+
+### 🛡️ [ai-governance-toolkit](https://github.com/jeanmalaquias/ai-governance-toolkit)
+> A deployable **Responsible AI runtime**: model-card generator, risk assessor, composable **guardrail orchestrator**, **OWASP LLM red-team runner**, audit logger/aggregator, a FastAPI surface, and a Next.js compliance dashboard.
+>
+> `responsible-ai` `guardrails` `red-team` `fastapi` `nextjs`
+
+### 💸 [llm-cost-simulator](https://github.com/jeanmalaquias/llm-cost-simulator)
+> Estimate and **optimize LLM inference cost** across providers from a versioned, sourced pricing catalog: semantic-cache / prompt-compression / model-routing simulator, self-host break-even, shareable scenarios, and an interactive Next.js calculator.
+>
+> `cost-optimization` `llmops` `fastapi` `nextjs` `recharts`
+
+### 🏛️ [ai-platform-reference](https://github.com/jeanmalaquias/ai-platform-reference)
+> Reference **multi-tenant AI platform control plane** — tenant onboarding, scoped (hashed) API keys, agent deployment manifests, a service registry, and per-tenant **cost attribution** — with a Python SDK and a tenant dashboard. The open core of Foundry / Bedrock / Vertex.
+>
+> `multi-tenant` `platform` `fastapi` `sdk` `cost-attribution`
+
+### ✍️ [architect-notes](https://github.com/jeanmalaquias/architect-notes)
+> **Architecture deep-dive series** + a small markdown publishing engine (index + RSS generation, frontmatter validation in CI). Long-form posts on multi-agent patterns, RAG at scale, MCP, and AI governance.
+>
+> `architecture` `writing` `mcp` `rag` `ai-governance`
+
+<details>
+<summary><b>More projects</b></summary>
+
 ### 🤖 [n8n-automation-kit](https://github.com/jeanmalaquias/n8n-automation-kit)
 > A powerful and growing library of ready-to-use **n8n workflow templates** to automate tasks across marketing, development, content, and operations. Built to accelerate AI-orchestrated workflows in production environments.
 >
@@ -148,6 +193,8 @@ focus:
 > Curated library of **ChatGPT prompts** for software developers, engineers, and digital professionals. Structured to support technical creativity and improve productivity across coding workflows.
 >
 > `prompt-engineering` `chatgpt` `developer-tools`
+
+</details>
 
 ---
 
